@@ -17,7 +17,7 @@
 
 .percentage-gauge {
     display: inline-block;
-    background-color: #e5ebee;
+    background-color: #000;
     position: absolute;
     top: 0;
     left: 0;
@@ -40,7 +40,8 @@
 .percentage-gauge-background {
     position: absolute;
     display: inline-block;
-    background-color: #fafbfc;
+    background-color: #222222;
+    border-color: #296e01;
 }
 
 .percentage-gauge-container {
@@ -48,7 +49,7 @@
     width: calc(100% - 75px);
     vertical-align: middle;
     position: relative;
-    background-color: #fafbfc;
+    background-color: #000;
 }
 
 .poll-results.has-images .percentage-gauge-container {
@@ -107,7 +108,7 @@ div.poll-block ul.poll-results li.poll-result {
 }
 
 .poll-image.result-image {
-    background-color: #fafbfc;
+    background-color: #000;
 }
 
 li.poll-result .poll-image {
@@ -242,7 +243,7 @@ th.survey-answer {
 }
 
 .survey-choice {
-    background-color: #e5ebee;
+    background-color: #000;
 }
 
 /* Counteract Markdown's wrapping in paragraphs */
@@ -262,7 +263,7 @@ th.survey-answer {
     margin-bottom: .25em;
     padding: .5em;
     display: inline-block;
-    background-color: #e5ebee;
+    background-color: #000;
     color: #e37222;
 }
 
