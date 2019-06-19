@@ -1,12 +1,12 @@
 .themed-xblock.poll-block .poll-voting-thanks span {
     /* default LMS colors - contrast 11.0 */
-    background-color: #ffffff;
-    color: #3c3c3c;
+    background-color: #000;
+    color: #fff;
 }
 
 .themed-xblock.poll-block .poll-top-choice {
     /* close to LMS color for links and menu items - contrast 5.5 with white and 4.6 with e5ebee*/
-    color: #0070a0;
+    color: #fff;
 }
 
 .themed-xblock.poll-block .poll-answer-label {
